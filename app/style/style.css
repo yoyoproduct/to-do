@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'SF-Pro';
+}
+
+body {
+    min-height: 100vh;
+    color: #F6A800;
+}
+
+@font-face {
+    font-family: 'SF-Pro';
+    src: url(../fonts/SF-Pro/SF-Pro-Text-Regular.otf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF-Pro B';
+    src: url(../fonts/SF-Pro/SF-Pro-Text-Bold.otf);
+    font-weight: 800;
+    font-style: normal;
+}
+
+.wrapper {
+    height: 100vh;
+    padding: 30px 0;
+    color: #F6A800;
+}
+
+
+
+
+.my-tasks-svg-ok {
+    width: 22px;
+    height: 22px;
+}
+
+
+.my-tasks-title  {
+    margin-left: 10px;
+    font-size:  17px;
+}
+
+
+.my-list {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+.add-btn {
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid #F6A800;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    transition: .3s ease-in-out;
+}
+
+.add-btn:hover {
+    background-color: #F6A800;
+    color: #fff;
+}
+
+.add-btn-text {
+    margin-left: 5px;
+}
+
+.new-tasks-element {
+    margin-top: 10px;
+    display: flex;
+    border: 1px solid #F6A800;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+.checkbox-element {
+    margin-top: 15px;
+}
+
+.new-tasks-element-textbox {
+    width: 85%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #F6A800;
+    resize: none;
+    margin-left: 10px;
+    word-wrap: wrap;
+    word-break: break-word;
+}
+
+.new-tasks-element-checkbox {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #F6A800;
+    border-radius: 50%;
+    
+}
+
+.new-tasks-element-checkbox-active {
+    background: url(../img/ok.svg) no-repeat center;
+    background-size: cover;
+    border: none;
+    width: 22px;
+    height: 22px;
+}
+
+.footer-text {
+    color : #F6A800;
+}
+
+.footer-text-hello {
+    font-size: 25px;
+}
+
+.footer-text-time {
+    font-family: 'SF-Pro B';
+    font-size: 40px;
+}
+
+.footer-text-proverb {
+    font-size: 20px;
+}
+

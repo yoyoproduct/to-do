@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Nimbus Mono';
+    src: local('Nimbus Mono'), local('NimbusMono-Regular'), url('Nimbusmono.woff2') format('woff2'), url('Nimbusmono.woff') format('woff'), url('Nimbusmono.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nimbus Mono B';
+    src: local('Nimbus Mono Bold'), local('NimbusMono-Bold'), url('Nimbusmonobold.woff2') format('woff2'), url('Nimbusmonobold.woff') format('woff'), url('Nimbusmonobold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
